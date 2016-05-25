@@ -73,5 +73,26 @@ RESPONSE
 ```
 =================
 
+============
+### Login User
+
+PUT
+/users/authenticate 
+### REQUEST
+```
+{
+"email": "Jakaboy@example.com",
+"pass": "12345678"
+}
+```
+### RESPONSE
+```
+{
+  "name": "JAKABOY",
+  "phone": "+57 321556655"
+}
+```
+============
+
 #Jakaboy 2016
 Anthony Ruiz
