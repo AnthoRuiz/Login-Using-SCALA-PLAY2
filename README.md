@@ -1,31 +1,45 @@
 # Service for Login Using API REST
+==========
 
+===============
+### List Users.
 
-
-Users List
 GET
 /users
 
-Create User
+===============
+
+============
+### Create User
+
 POST
 /users
-REQUEST
+### REQUEST
+```
 {
 "name": "Jakaboy",
 "email": "Jakaboy@example.com",
 "pass": "12345678",
 "phone": "+57 321556655"
 }
-RESPONSE
+```
+
+### RESPONSE
+```
 {
   "status": 200,
   "message": "user created successfully"
 }
+```
+============
 
-Update User
+============
+### Update User
+
 PUT
 /users
-REQUEST
+### REQUEST
+```
 {
 "id": 1,
 "name": "Jakaboy Update",
@@ -33,21 +47,30 @@ REQUEST
 "pass": "12345678",
 "phone": "+57 321556655"
 }
-RESPONSE
+```
+### RESPONSE
+```
 {
   "status": 200,
   "message": "User updated successfully"
 }
+```
+============
 
-Delete User
+=================
+### Delete User
+
 DELETE
 /users/{id}
 EXAMPLE: /users/1
 
 RESPONSE
+```
 {
   "status": 200,
   "message": "User deleted successfully"
 }
+```
+=================
 
 Jakaboy 2016
