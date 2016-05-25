@@ -76,7 +76,7 @@ RESPONSE
 ============
 ### Login User
 
-PUT
+POST
 /users/authenticate 
 ### REQUEST
 ```
