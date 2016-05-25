@@ -1,0 +1,15 @@
+
+#UTILITIES
+GET        /date                       @co.com.jakaboy.login.commons.controller.CommonsController.getDate
+
+
+#### USERS ####
+
+#USERS
+GET       /users                       @co.com.jakaboy.login.users.controller.UserController.getUser
+POST      /users                       @co.com.jakaboy.login.users.controller.UserController.createUser
+PUT       /users                       @co.com.jakaboy.login.users.controller.UserController.updateUser
+DELETE    /users/:id                   @co.com.jakaboy.login.users.controller.UserController.deleteUser( id: Int )
+
+# AUTHENTICATION
+POST      /users/authenticate          @co.com.jakaboy.login.users.controller.UserController.authenticate
